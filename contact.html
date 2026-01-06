@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #36d1dc, #5b86e5);
+        }
+
+        .contact-box {
+            background: #ffffff;
+            width: 400px;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .contact-box h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .contact-box p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .contact-box a, .contact-box button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .contact-box a {
+            color: #5b86e5;
+            border: 2px solid #5b86e5;
+        }
+
+        .contact-box a:hover {
+            background-color: #5b86e5;
+            color: #fff;
+        }
+
+        .contact-box button {
+            background-color: #36d1dc;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .contact-box button:hover {
+            background-color: #2bb0c9;
+        }
+
+        .contact-box input, .contact-box textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        .contact-box textarea {
+            resize: vertical;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="contact-box">
+        <h2>Contact Us</h2>
+
+        <p>We’d love to hear from you! Please fill out the form below or reach us using the details provided.</p>
+
+        <!-- Contact Form -->
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p>
+            Or contact us directly:<br>
+            Email: <strong>team@example.com</strong><br>
+            Phone: <strong>+123-456-7890</strong>
+        </p>
+
+        <!-- Back Button -->
+        <a href="aboutus.html">⬅ Back to About Us</a>
+    </div>
+
+</body>
+</html>
